@@ -1,4 +1,4 @@
-import * as types from '../constants/Types.constant'
+import * as types from '../Constants/Types.constant'
 import axios from 'axios';
 import * as settings from '../../Commons/Settings'
 import swal from 'sweetalert2'
@@ -31,7 +31,7 @@ export const layThongTinTK = () => {
         let userLogin = JSON.parse(localStorage.getItem(settings.userLogin))
         axios({
             method:'POST',
-            url:`http://elearning0706.cybersoft.edu.vn/api/QuanLyNguoiDung/ThongTinTaiKhoan`,
+            url:`${settings.host}api/QuanLyNguoiDung/ThongTinTaiKhoan`,
             data:{taiKhoan:userLogin.taiKhoan},
             headers: {
                 "Authorization": "Bearer " +  localStorage.getItem(settings.token)

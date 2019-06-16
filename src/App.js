@@ -1,11 +1,11 @@
-import React, { Fragment} from 'react';
+import React from 'react';
 import ELearningApp from './Templates/ELearningApp';
 
 function App() {
     return (
-        <Fragment className="App">
+        <div className="App">
             <ELearningApp/>
-        </Fragment>
+        </div>
     );
 }
 
