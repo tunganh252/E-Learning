@@ -1,9 +1,11 @@
 import { combineReducers } from 'redux'; 
-import {QuanLyNguoiDungStoreReducer} from './Reducers/QuanLyNguoiDung.reducer'
+import { quanLyNguoiDung } from './Reducers/QuanLyNguoiDung/index';
+import { quanLyKhoaHoc } from './Reducers/QuanLyKhoaHoc/index';
 
 
 ///store
 const rootReducer = combineReducers({
-    QuanLyNguoiDungStoreReducer
+    ...quanLyNguoiDung,
+    ...quanLyKhoaHoc
 })
 export default rootReducer;

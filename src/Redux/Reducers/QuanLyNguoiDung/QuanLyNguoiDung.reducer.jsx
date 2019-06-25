@@ -1,5 +1,5 @@
-import * as types from "../Constants/Types.constant";
-import * as settings from '../../Commons/Settings'
+import * as types from "../../Constants/Types.constant";
+import * as settings from '../../../Commons/Settings'
 
 const initialState = {
     isLogin:localStorage.getItem(settings.userLogin) ? true : false

@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import styled from "styled-components";
 import { connect } from "react-redux";
-import { dangNhapAction } from "../Redux/Actions/QuanLyNguoiDung.actions";
+import { dangNhapAction } from "../Redux/Actions/QuanLyNguoiDung/QuanLyNguoiDung.actions";
 import {Redirect} from 'react-router-dom';
 
 const Bound = styled.div`

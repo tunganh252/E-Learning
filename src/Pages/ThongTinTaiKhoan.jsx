@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import {connect} from 'react-redux'
-import { layThongTinTK } from '../Redux/Actions/QuanLyNguoiDung.actions';
+import { layThongTinTK } from '../Redux/Actions/QuanLyNguoiDung/QuanLyNguoiDung.actions';
 
  class ThongTinTaiKhoan extends Component {
 

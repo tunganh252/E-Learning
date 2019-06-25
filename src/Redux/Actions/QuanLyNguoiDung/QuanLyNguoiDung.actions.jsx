@@ -1,6 +1,6 @@
-import * as types from '../Constants/Types.constant'
+import * as types from '../../Constants/Types.constant'
 import axios from 'axios';
-import * as settings from '../../Commons/Settings'
+import * as settings from '../../../Commons/Settings'
 import swal from 'sweetalert2'
 
 export const dangNhapAction = (thongTinDangNhap) => {
